@@ -1,44 +1,40 @@
 body{
-    background: black;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,228,252,1) 100%);
+}
+.menuNav{
+   
 }
 
 
 
-nav ul{
-	padding: 0px;
-    margin : 0px;
-    
-	list-style-type: none;
-	background-color:rgb(59, 24, 255);
-	
-}
-nav li {
+.menuNav--boutton
+{
 	display: block;
 
 	color: white;
 
 	display: inline-block;
-    margin: 15px;
-	padding: 5px;
+    margin: 5px;
+	padding: 1px;
 	
 	height: 30 text-align: center;
     cursor: pointer;
     padding: 1rem 3rem;
     display: inline-block;
-    border-radius: 3px;
+    border-radius: 2px;
     margin: 1rem;
     text-decoration: none;
     font-family: system-ui;
-    font-size: 16px;
+    font-size: 12px;
     text-transform: uppercase;
     background-image: linear-gradient(-45deg, #1f2f98 0, #4adede 100%);
-    box-shadow: 0 4px 13px 0 rgba(14, 9, 73, 0.2),
+    box-shadow: 0 4px 12px 0 rgba(14, 9, 73, 0.2),
       0 11px 21px 0 rgba(255, 166, 220, 0.004);px;
 	
     
 }
 
-nav li:hover{
+.menuNav--boutton:hover{
     color: rgb(68, 64, 64);
 
 }
