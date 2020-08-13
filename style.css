@@ -1,17 +1,29 @@
 body{
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,228,252,1) 100%);
-}
-.menuNav{
+    background: url(https://zupimages.net/up/20/33/3r8j.png);
+    background-size: cover;
    
+}
+.header{
+  width: 1900px;
+}
+
+.menuNav{ 
+  background:  url(https://zupimages.net/up/20/33/vorx.png) ;
+  
+   opacity: 0.9 ;
+   border: 1px solid rgba(5,164,250,0.86) ;
+   box-shadow: 0px 3px 105px 0px rgba(5,164,250,0.86);
+   border-bottom-right-radius: 250px 250px;
 }
 
 
 
 .menuNav--boutton
 {
+   
 	display: block;
 
-	color: white;
+	color: linear-gradient(#14ffe9,#ffeb3b,#ff00e0)
 
 	display: inline-block;
     margin: 5px;
@@ -19,22 +31,67 @@ body{
 	
 	height: 30 text-align: center;
     cursor: pointer;
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
     display: inline-block;
-    border-radius: 2px;
     margin: 1rem;
     text-decoration: none;
     font-family: system-ui;
     font-size: 12px;
     text-transform: uppercase;
-    background-image: linear-gradient(-45deg, #1f2f98 0, #4adede 100%);
-    box-shadow: 0 4px 12px 0 rgba(14, 9, 73, 0.2),
-      0 11px 21px 0 rgba(255, 166, 220, 0.004);px;
-	
+  
     
-}
+  
+          background: url(https://zupimages.net/up/20/33/vorx.png);
+		box-shadow: 0 5px 25px -5px #333 inset;
+		padding-top: 1em;
+        text-align: center;
+       
+        color: #fff;
+        text-align: center;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+      @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 20px #fff, 0 0 20px #fff, 0 0 30px #ffffff, 0 0 20px #ffffff, 0 0 20px #ffffff, 0 0 20px #ffffff, 0 0 20px #ffffff;
+        }
+        to {
+          text-shadow: 0 0 20px #fff, 0 0 50px rgb(255, 255, 255), 0 0 20px #ffffff, 0 0 20px #ffffff, 0 0 20px #ffffff, 0 0 20px #ffffff, 0 0 20px #ffffff;
+        }
+      }
+    
+      
+      .menuNav--boutton::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-left: 20px solid white;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+      }
 
 .menuNav--boutton:hover{
-    color: rgb(68, 64, 64);
+    color: rgb(0, 0, 0);
+    background-image: gold;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 37%, rgba(0,212,255,1) 100%);;
+    box-shadow: 0 4px 12px 0 rgba(14, 9, 73, 0.2),
+    0 11px 21px 0 rgba(223, 10, 138, 0.004);px;
+    transition: 2s all ease  ;
+   
+    
+ 
+  
 
+}
+
+.Logo{
+   
+    width: 140px;
+    border-radius: 80px;
+    box-shadow: 15px 3px 105px 0px rgba(21, 5, 250, 0.86)
+   
 }
