@@ -119,7 +119,7 @@ body{
    
 }
 @media screen and (min-width:980px){
-  .conteneur-flex{
+  .menuNav{
     flex-flow: row wrap;
   }
 }
