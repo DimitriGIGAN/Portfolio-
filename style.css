@@ -1,10 +1,13 @@
 body{
     background: url(https://zupimages.net/up/20/33/3r8j.png);
     background-size: cover;
+    cursor: url(images/Cursor.png);
+    overflow: visible;
    
 }
 .header{
   width: 1900px;
+
 }
 
 .menuNav{ 
@@ -12,8 +15,9 @@ body{
   
    opacity: 0.9 ;
    border: 1px solid rgba(5,164,250,0.86) ;
-   box-shadow: 0px 3px 105px 0px rgba(5,164,250,0.86);
+   box-shadow: 0px 3px 105px 0px rgba(20, 6, 209, 0.86);
    border-bottom-right-radius: 250px 250px;
+  
 }
 
 
@@ -25,7 +29,7 @@ body{
 
 	color: linear-gradient(#14ffe9,#ffeb3b,#ff00e0)
 
-	display: inline-block;
+	
     margin: 5px;
 	padding: 1px;
 	
@@ -33,15 +37,16 @@ body{
     cursor: pointer;
     padding: 1rem 2rem;
     display: inline-block;
+    
     margin: 1rem;
     text-decoration: none;
-    font-family: system-ui;
-    font-size: 12px;
+   font-family: URW Chancery L, cursive;
+    font-size: 13px;
     text-transform: uppercase;
   
     
-  
-          background: url(https://zupimages.net/up/20/33/vorx.png);
+
+          background: url(images/ZEXAL.png);
 		box-shadow: 0 5px 25px -5px #333 inset;
 		padding-top: 1em;
         text-align: center;
@@ -50,7 +55,7 @@ body{
         text-align: center;
         -webkit-animation: glow 1s ease-in-out infinite alternate;
         -moz-animation: glow 1s ease-in-out infinite alternate;
-        animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 3s ease-in-out infinite alternate;
       }
       @-webkit-keyframes glow {
         from {
@@ -72,6 +77,7 @@ body{
         border-left: 20px solid white;
         border-top: 20px solid transparent;
         border-bottom: 20px solid transparent;
+        
       }
 
 .menuNav--boutton:hover{
@@ -98,15 +104,16 @@ body{
 }
 @keyframes bg-pan-right {
   0% {
-    background-position: 0% 50%;
-  }
-  100% {
     background-position: 100% 50%;
   }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-
-
- 
+ button{
+   width: 170px;
+   
+ }
   
 
 
@@ -118,8 +125,12 @@ body{
     box-shadow: 15px 3px 105px 0px rgba(21, 5, 250, 0.86)
    
 }
-@media screen and (min-width:980px){
-  .menuNav{
-    flex-flow: row wrap;
+@media screen and (min-width: 780px) and (max-width: 979px) {
+  .conteneur-flex {
+      flex-flow: row wrap;
+  }
+
+  .sous-conteneur-flex {
+      margin: 0px 10px;
   }
 }
