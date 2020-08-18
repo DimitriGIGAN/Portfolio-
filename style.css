@@ -1,9 +1,11 @@
 body{
-    background: url(https://zupimages.net/up/20/33/3r8j.png);
+    background: url(images/bk_layer_a.png);
+    overflow: visible url(images/bk_layer_b.png);
     background-size: cover;
     cursor: url(images/Cursor.png);
-    overflow: visible;
-   
+    background-color: black;
+    color: white;   
+    font-family: 'Megrim', cursive;
 }
 .header{
   width: 1900px;
@@ -11,7 +13,7 @@ body{
 }
 
 .menuNav{ 
-  background:  url(https://zupimages.net/up/20/33/vorx.png) ;
+  background:  url(images/FONDhead.png) ;
   
    opacity: 0.9 ;
    border: 1px solid rgba(5,164,250,0.86) ;
@@ -27,29 +29,30 @@ body{
    
 	display: block;
 
-	color: linear-gradient(#14ffe9,#ffeb3b,#ff00e0)
+
 
 	
     margin: 5px;
 	padding: 1px;
 	
-	height: 30 text-align: center;
+	height: 20px text-align: center;
     cursor: pointer;
     padding: 1rem 2rem;
     display: inline-block;
     
     margin: 1rem;
     text-decoration: none;
-   font-family: URW Chancery L, cursive;
+    font-family: 'Megrim', cursive;
     font-size: 13px;
     text-transform: uppercase;
   
     
 
           background: url(images/ZEXAL.png);
-		box-shadow: 0 5px 25px -5px #333 inset;
-		padding-top: 1em;
+		box-shadow: 0 5px 85px -5px #333 inset;
+		padding-top: -1em;
         text-align: center;
+      
        
         color: #fff;
         text-align: center;
@@ -59,13 +62,24 @@ body{
       }
       @-webkit-keyframes glow {
         from {
-          text-shadow: 0 0 20px #fff, 0 0 20px #fff, 0 0 30px #ffffff, 0 0 20px #ffffff, 0 0 20px #ffffff, 0 0 20px #ffffff, 0 0 20px #ffffff;
+          text-shadow: 
+           0 0 5px #0bf4f3,
+          0 0 10px #0bf4f3,
+          0 0 20px #0bf4f3,
+          0 0 40px #0bf4f3,
+          0 0 80px #0bf4f3;;
         }
         to {
-          text-shadow: 0 0 20px #fff, 0 0 50px rgb(255, 255, 255), 0 0 20px #ffffff, 0 0 20px #ffffff, 0 0 20px #ffffff, 0 0 20px #ffffff, 0 0 20px #ffffff;
+          text-shadow: 0 0 20px rgba(19, 7, 189, 0.86),
+           0 0 5px rgba(19, 7, 189, 0.86),
+            0 0 10px rgba(19, 7, 189, 0.86), 
+            0 0 20px rgba(19, 7, 189, 0.86), 
+            0 0 40px rgba(19, 7, 189, 0.86), 
+            0 0 80px rgba(19, 7, 189, 0.86), 
+            0 0 20px rgba(19, 7, 189, 0.86);
         }
       }
-    
+     
       
       .menuNav--boutton::before{
         content: "";
@@ -85,10 +99,11 @@ body{
     background-image: gold;
    
     0 11px 21px 0 rgba(223, 10, 138, 0.004);px;
-    transition: 2s all ease  ;
+    transition: 3s all ease  ;
   
       -webkit-animation: bg-pan-right 8s infinite both;
               animation: bg-pan-right 8s infinite both;
+             
     }
     }
 
@@ -110,11 +125,7 @@ body{
     background-position: 0% 50%;
   }
 }
- button{
-   width: 170px;
-   
- }
-  
+
 
 
 
@@ -122,7 +133,7 @@ body{
    
     width: 140px;
     border-radius: 80px;
-    box-shadow: 15px 3px 105px 0px rgba(21, 5, 250, 0.86)
+    box-shadow: 15px 3px 105px 0px rgba(19, 7, 189, 0.86)
    
 }
 @media screen and (min-width: 780px) and (max-width: 979px) {
@@ -134,3 +145,90 @@ body{
       margin: 0px 10px;
   }
 }
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-gap: 5px;
+  grid-auto-rows: minmax(100px, 200px);
+}
+.one {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+.two { 
+  grid-column: 2 / 3;
+  grid-row: 1;
+}
+.three {
+  grid-column: 3 / 3;
+  grid-row: 1;
+}
+.page {
+  width: 789px ;
+  Margin: auto;
+  font-family: cursive;
+  font-size: 17px;
+  
+}
+.infophoto{
+  height: 250px;
+}
+.info{
+  float: left
+}
+.GIGAN{
+  height: 120px;
+  float: inline-start;
+  border-radius: 80px;
+  box-shadow: 15px 3px 105px 0px rgba(19, 7, 189, 0.86)
+  
+}
+.section{
+  margin-bottom: 70px;
+  text-align: justify;
+  
+}
+
+.sec-droite{
+  font-size: larger;
+  
+}
+h2{
+  font-size: 29px;
+  text-shadow: 
+        0 0 5px #0bf4f3,
+        0 0 10px #b8ecec,
+        0 0 20px #0bf4f3,
+        0 0 40px #0bf4f3,
+        0 0 80px #0bf4f3;
+        border-bottom: 3px solid #0bf4f3;
+        box-shadow: 0 5px 85px -5px #333 inset;
+        text-align: center;
+        font-family: 'Megrim', cursive;
+        background: url(images/bk_layer_c.png);
+        
+}
+ 
+}
+.duree{
+  font-weight: normal;
+  font-size: italic;
+  font-size: 16px;
+}
+.titre{
+  font-weight: bold;
+  font-size: 22px ;
+  text-shadow: 0 0 20px rgba(19, 7, 189, 0.86),
+           0 0 5px rgba(19, 7, 189, 0.86),
+            0 0 10px rgba(19, 7, 189, 0.86), 
+            0 0 20px rgba(19, 7, 189, 0.86), 
+            0 0 40px rgba(19, 7, 189, 0.86), 
+            0 0 80px rgba(19, 7, 189, 0.86), 
+            0 0 20px rgba(19, 7, 189, 0.86);
+            
+}
+
+
+}
+#forma-gauche p{
+  margin-bottom: 35px;
