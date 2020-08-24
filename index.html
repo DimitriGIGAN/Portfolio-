@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Megrim&family=Pompiere&display=swap" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -18,7 +19,7 @@
             <img class="header" src="https://zupimages.net/up/20/33/o28p.png" alt="">
             
             <ul>
-                <img class="Logo" src="https://i.ibb.co/qp4n3xF/Logo-Portfolio-1.gif"> 
+                <img class="Logo" src="images/Logo Portfolio(1).gif"> 
                  <li  class="menuNav--boutton"type="button" >Accueil 
             <li class="menuNav--boutton"type="button">Mes diplômes et Formation 
             <li class="menuNav--boutton"type="button">Expérience profesionel
@@ -37,10 +38,10 @@
         </div>
  
     </div>
-    <div class="section">
-        <h2>DIPLÔMES</h2>
+    <div class="section ">
+        <h2 type="button" class="collapsible"> DIPLÔMES</h2>
      
- <div class="sec-droite">
+ <div class="content">
      <p><span class="titre">2017 Service Civique </span></p>
      <p><span class="titre"> 2015 Bacalauréat Gestion Administration </span><br/>
      Lycée Profesionnel Julien de Rontonay</p>
@@ -50,9 +51,9 @@
      Collèges des deux canons</p>
     </div>
     <div class="section">
-     <h2>EXPERICENCE PROFESSIONEL</h2>
+        <h2 type="button" class="collapsible">EXPERICENCE PROFESSIONEL</h2>
     
- <div class="sec-droite">
+        <div class="content">
      <p><span class="titre">Carfour market de MR SAID ,île de france 22/04/2019 au 25/05/2019</span><br/>
          <ul>
              <li>
@@ -166,21 +167,9 @@
         
  </div>
  <div class="section">
-     <h2>COMPETENCES/ATOUTS/CENTRE-INTERET</h2>
- 
- 
-     
- <div class="sec-droite">
-  
- </div>
-        
- </div>
- <div class="section">
-     <div>
- 
- 
-     </div>
- <div class="sec-droite">
+    <h2 type="button" class="collapsible">COMPETENCES/ATOUTS/CENTRE-INTERET</h2>
+
+     <div class="content">
      
          <p><span class ="titre">Compétences/Skill</span>
              <ul> 
@@ -254,5 +243,21 @@
             </div>
         </div>
      </footer>
+     <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+        </script>
 </body>
 </html>

@@ -97,6 +97,7 @@ body{
 .menuNav--boutton:hover{
     color: rgb(0, 0, 0);
     background-image: gold;
+    
    
     0 11px 21px 0 rgba(223, 10, 138, 0.004);px;
     transition: 3s all ease  ;
@@ -206,8 +207,13 @@ h2{
         text-align: center;
         font-family: 'Megrim', cursive;
         background: url(images/bk_layer_c.png);
+      
+          visibility: visible;
         
+        
+       
 }
+
  
 }
 .duree{
@@ -228,7 +234,24 @@ h2{
             
 }
 
+.collapsible {
+ 
+  cursor: pointer;
+  
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  
+}
+
+.active, .collapsible:hover {
 
 }
-#forma-gauche p{
-  margin-bottom: 35px;
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+
+}
