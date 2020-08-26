@@ -6,4 +6,20 @@
   <li>Textures : Style cyber informatique KC</li>
   <li>Thème global du portfolio : Théme Yu-gi-oh Duel Links</li>
   </ul>
+  <h1>Sprint 2 – Votre logo<h1>
+ <ul> Objectifs : 
+  <li> Créer une première ébauche de logo </li>
+ </ul>
+ <ul> Tâches :
+ <li>Trouver les couleurs du logo ( voir votre charte graphique )
+<li>Trouver les formes du logo ( voir votre charte graphique )
+<li>Trouver les textures du logo ( voir votre charte graphique )
+<li>Trouver le thème global du portfolio du logo ( voir votre charte graphique )
+  </li>
+ </ul>
+ <ul>Livrables :
+<li>Placer dans le dossier « Sprint 2 »  un logo contenant les différentes indications demandées, avec comme convention de nommage « logo_nom.prenom.png »
+ ( les format png et jpg/jpeg sont accepté ) </li>
+
+ 
 <h2>Ressource : https://drive.google.com/drive/folders/19U1TwXETcZVlqRcTORzP_Vewrz_POfg_ </h2>
