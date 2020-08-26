@@ -20,6 +20,22 @@
  <ul>Livrables :
 <li>Placer dans le dossier « Sprint 2 »  un logo contenant les différentes indications demandées, avec comme convention de nommage « logo_nom.prenom.png »
  ( les format png et jpg/jpeg sont accepté ) </li>
+<h1>Sprint 3 – Votre Parcours</h1>
+<h1>Sprint 4 – En-tête de portfolio</h1>
+ <ul> Objectifs : 
+  <li>   Réaliser votre en-tête </li>
+ </ul>
+ <ul> Tâches :
+ <li>  Réaliser l’entête de votre portfolio
+<li>     Ajouter votre logo à votre en-tête
+  </li>
+ </ul>
+  <ul> Livrables :
+ <li>  Placer dans le dossier « Sprint 4 »  votre dossier de projet nommé
+« entete_portfolio_nom.prenom » contenant les différents fichiers de code :
 
- 
+<li> index.html
+ <li> style.css
+  </li>
+ </ul>
 <h2>Ressource : https://drive.google.com/drive/folders/19U1TwXETcZVlqRcTORzP_Vewrz_POfg_ </h2>
