@@ -6,7 +6,7 @@
   <li>Textures : Style cyber informatique KC</li>
   <li>Thème global du portfolio : Théme Yu-gi-oh Duel Links</li>
   </ul>
-  <h1>Sprint 2 – Votre logo<h1>
+  <h1>Sprint 2 – Votre logo</h1>
  <ul> Objectifs : 
   <li> Créer une première ébauche de logo </li>
  </ul>
