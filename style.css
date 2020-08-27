@@ -1,9 +1,10 @@
 body{
     background: url(images/bk_layer_a.png);
-    overflow: visible url(images/bk_layer_b.png);
+   
     background-size: cover;
-    cursor: url(images/yugioh.ico);
-    background-color: black;
+    cursor: url(images/yugioh.ico), auto;
+    
+    background-color:black;
     color: white;   
     font-family: 'Megrim', cursive;
    
@@ -41,7 +42,7 @@ body{
 	
   height: 20px ;
   text-align: center;
-    cursor: pointer;
+   
     padding: 1rem 2rem;
     display: inline-block;
     
@@ -93,7 +94,7 @@ body{
         bottom: 0;
         width: 0;
         height: 0;
-        border-left: 20px solid white;
+        border-left: 20px solid transparentd;
         border-top: 20px solid transparent;
         border-bottom: 20px solid transparent;
         
@@ -212,7 +213,7 @@ h2{
         text-align: center;
         font-family: 'Megrim', cursive;
         background-image: url(images/bk_layer_c.png);
-      
+        cursor: url(images/yugioh.ico), auto;
           visibility: visible;
         
             -webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -271,7 +272,7 @@ h2{
 
 .collapsible {
  
-  cursor: pointer;
+  cursor: url(images/LIGHT.png);
   
   width: 100%;
   border: none;
@@ -292,7 +293,8 @@ transition: 15s ease-in-out ;
 }
 
 .Diplome{
-  width: 250px;
+  cursor: url(images/yugioh.ico), auto;
+  width: 300px;
   perspective: 600px;
     float: left;
     margin: 0 0 30px 30px;
