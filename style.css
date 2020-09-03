@@ -2,7 +2,7 @@ body{
     background: url(images/bk_layer_a.png);
    
     background-size: cover;
-    cursor: url(images/yugioh.ico), auto;
+    cursor: url(images/Cursor.png) auto;
     
     background-color:black;
     color: white;   
@@ -213,7 +213,8 @@ h2{
         text-align: center;
         font-family: 'Megrim', cursive;
         background-image: url(images/bk_layer_c.png);
-        cursor: url(images/yugioh.ico), auto;
+        
+        cursor: url(images/Favicon.ico), auto;
           visibility: visible;
         
             -webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -437,4 +438,10 @@ transition: 15s ease-in-out ;
             transform: translateY(0);
     opacity: 1;
   }
+}
+.Skill{
+  width: 25px;
+}
+ul{
+  list-style: url(images/yugioh.ico);
 }
